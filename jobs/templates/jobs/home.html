@@ -55,7 +55,7 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<div class="navbar-nav ml-auto">
-		    	<a class="nav-link active" href="#">Profile</a>
+		    	<a class="nav-link active" href="{% url 'allblogs' %}">Profile</a>
 		    	<a class="nav-link active" href="#">Resume</a>
 		    	<a class="nav-link active" href="#">Link</a>
 			</div>
@@ -70,7 +70,7 @@
       <h1>Welcome to my homepage</h1>
       <p class="lead text-muted">Shota Mishima</p>
       <p>
-        <a href="japanese page link" class="btn btn-primary my-2">JAPANESE PAGE</a>
+        <a href="{% url 'allblogs' %}" class="btn btn-primary my-2">JAPANESE PAGE</a>
       </p>
     </div>
   </section>
